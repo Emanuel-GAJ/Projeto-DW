@@ -1,0 +1,19 @@
+{
+    "files": [
+        {
+            "name": "text.txt",
+            "type": "texto",
+            "size": "10Mb"
+        },
+        {
+            "name": "text.doc",
+            "type": "doc",
+            "size": "30Mb"
+        },
+        {
+            "name": "text.pdf",
+            "type": "pdf",
+            "size": "55Mb"
+        }
+    ]
+}
