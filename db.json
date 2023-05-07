@@ -1,19 +1,33 @@
 {
-    "files": [
+    "usuarios": [
         {
-            "name": "text.txt",
-            "type": "texto",
-            "size": "10Mb"
+            "id": 1,
+            "endereco_IP": "192.168.0.1",
+            "nome": "emanuel",
+            "senha": "ifpb23"
         },
         {
-            "name": "text.doc",
-            "type": "doc",
-            "size": "30Mb"
+            "id": 2,
+            "endereco_IP":"192.168.0.2",
+            "nome": "jose",
+            "senha":"ifpb15"
+        }
+    ],
+
+    "arquivos": [
+        {
+            "id": 1,
+            "nome": "arq1",
+            "tipo": ".txt",
+            "tamanho": "100Mb",
+            "userId": 1
         },
         {
-            "name": "text.pdf",
-            "type": "pdf",
-            "size": "55Mb"
+            "id": 2,
+            "nome": "arq2",
+            "tipo": ".png",
+            "tamanho": "200Mb",
+            "userId": 2
         }
     ]
 }

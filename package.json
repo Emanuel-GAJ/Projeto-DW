@@ -1,14 +1,7 @@
-{
-  "name": "back",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+{ 
   "scripts": {
-    "dev": "json-server db.json --watch"
+    "start": "json-server --watch db.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
   }
