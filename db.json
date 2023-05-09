@@ -1,0 +1,59 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "endereco_IP": "192.168.0.1",
+            "name": "emanuel",
+            "senha": "ifpb23"
+        },
+        {
+            "id": 2,
+            "endereco_IP":"192.168.0.2",
+            "name": "jose",
+            "senha":"ifpb15"
+        }
+    ],
+
+    "arquivos": [
+        {
+            "id": 1,
+            "name": "arq1",
+            "date": "02/01/2023",
+            "extension": ".txt",
+            "size": "100Mb",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "arq2",
+            "date": "09/01/2023",
+            "extension": ".png",
+            "size": "180Mb",
+            "userId": 2
+        },
+        {
+            "id": 3,
+            "name": "arq3",
+            "date": "15/01/2023",
+            "extension": ".png",
+            "size": "190Mb",
+            "userId": 1
+        },
+        {
+            "id": 4,
+            "name": "arq4",
+            "date": "05/02/2023",
+            "extension": ".txt",
+            "size": "250Mb",
+            "userId": 2
+        },
+        {
+            "id": 5,
+            "name": "arq5",
+            "date": "21/02/2023",
+            "extension": ".png",
+            "size": "300Mb",
+            "userId": 2
+        }
+    ]
+}
